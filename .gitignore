@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[ocd]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# Environment variables
+.env 
+
+# vector database
+data/chroma/
+
+# IDE
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Testing
+.pytest_cache/
+
