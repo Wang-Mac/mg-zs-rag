@@ -86,20 +86,22 @@ Automotive Manual (HTML)
 ```text
 mg-zs-rag/
 ├── data/
-│   ├── raw/                  # Original manual documents
-│   └── chroma/               # ChromaDB vector storage
+│   ├── raw/
+│   │   └── .gitkeep
+│   └── chroma/              # Generated locally
 │
 ├── src/
 │   └── mg_zs_rag/
 │       ├── __init__.py
-│       ├── config.py         # Project configuration
-│       ├── ingest.py         # Document ingestion pipeline
-│       └── chat.py           # RAG chat application
+│       ├── config.py
+│       ├── ingest.py
+│       └── chat.py
 │
-├── .env.example              # Environment variable template
+├── .env.example
 ├── .gitignore
-├── pyproject.toml            # Project dependencies
-├── uv.lock                   # Dependency lock file
+├── .python-version
+├── pyproject.toml
+├── uv.lock
 └── README.md
 ```
 
